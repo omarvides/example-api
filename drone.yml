@@ -1,0 +1,14 @@
+pipeline:
+  build_api:
+    image: node:8
+    commands:
+      - npm install
+      - npm test
+  docker_publish:
+    image: plugins/docker:17.12
+    repo: omarvides/example-api
+    dockerfile: docker/Dockerfile
+    auto_tag: true
+    secrets: [ docker_username, docker_password ]
+    when:
+      event: [ tag ]
