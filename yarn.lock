@@ -21,6 +21,10 @@ balanced-match@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-1.0.0.tgz#89b4d199ab2bee49de164ea02b89ce462d71b767"
 
+bintrees@1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/bintrees/-/bintrees-1.0.1.tgz#0e655c9b9c2435eaab68bf4027226d2b55a34524"
+
 body-parser@1.18.3:
   version "1.18.3"
   resolved "https://registry.yarnpkg.com/body-parser/-/body-parser-1.18.3.tgz#5b292198ffdd553b3a0f20ded0592b956955c8b4"
@@ -146,6 +150,14 @@ escape-string-regexp@1.0.5:
 etag@~1.8.1:
   version "1.8.1"
   resolved "https://registry.yarnpkg.com/etag/-/etag-1.8.1.tgz#41ae2eeb65efa62268aebfea83ac7d79299b0887"
+
+express-prom-bundle@^4.2.1:
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/express-prom-bundle/-/express-prom-bundle-4.2.1.tgz#e88754c231af2af062429f9f84c0b61dee0d85b5"
+  dependencies:
+    on-finished "^2.3.0"
+    prom-client "~11.1.1"
+    url-value-parser "^2.0.0"
 
 express@^4.16.4:
   version "4.16.4"
@@ -353,7 +365,7 @@ negotiator@0.6.1:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/negotiator/-/negotiator-0.6.1.tgz#2b327184e8992101177b28563fb5e7102acd0ca9"
 
-on-finished@~2.3.0:
+on-finished@^2.3.0, on-finished@~2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/on-finished/-/on-finished-2.3.0.tgz#20f1336481b083cd75337992a16971aa2d906947"
   dependencies:
@@ -380,6 +392,12 @@ path-to-regexp@0.1.7:
 process-nextick-args@~2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/process-nextick-args/-/process-nextick-args-2.0.0.tgz#a37d732f4271b4ab1ad070d35508e8290788ffaa"
+
+prom-client@~11.1.1:
+  version "11.1.3"
+  resolved "https://registry.yarnpkg.com/prom-client/-/prom-client-11.1.3.tgz#bd9566ddcc6cb52e47732547191d777fbe35d12e"
+  dependencies:
+    tdigest "^0.1.1"
 
 proxy-addr@~2.0.4:
   version "2.0.4"
@@ -498,6 +516,12 @@ supports-color@5.4.0:
   dependencies:
     has-flag "^3.0.0"
 
+tdigest@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/tdigest/-/tdigest-0.1.1.tgz#2e3cb2c39ea449e55d1e6cd91117accca4588021"
+  dependencies:
+    bintrees "1.0.1"
+
 type-is@~1.6.16:
   version "1.6.16"
   resolved "https://registry.yarnpkg.com/type-is/-/type-is-1.6.16.tgz#f89ce341541c672b25ee7ae3c73dee3b2be50194"
@@ -508,6 +532,10 @@ type-is@~1.6.16:
 unpipe@1.0.0, unpipe@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/unpipe/-/unpipe-1.0.0.tgz#b2bf4ee8514aae6165b4817829d21b2ef49904ec"
+
+url-value-parser@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/url-value-parser/-/url-value-parser-2.0.0.tgz#658f0e67266276a74a684c988d1fa067d49a7290"
 
 util-deprecate@~1.0.1:
   version "1.0.2"
